@@ -56,7 +56,7 @@ console.log(dictionary['yakka']);
 
 // 1 use the logical operator to find wheather age of a person lies between 10 and 20 ?
 
-$age = prompt("Enter Your age: ");
+let $age = prompt("Enter Your age: ");
 // console.log($age, typeof $age);
 $age = Number.parseInt($age);  // in above line typeof $age is printed string thats we need to parse the number into integer.
 
@@ -69,7 +69,7 @@ if($age > 10 && $age < 20){
 
 // 2 demonstrate the switch case statement in JavaScript.
 
-RandNum = prompt("Enter a random number between 1 to 5 : ");
+let RandNum = prompt("Enter a random number between 1 to 5 : ");
 RandNum = Number.parseInt(RandNum);
 switch(RandNum){
   case 1:
@@ -93,7 +93,7 @@ switch(RandNum){
 
 // 3 & 4 - write a javascript program to find the number is divisible by 2 and 3 or not?
 
-numb = prompt('Enter the number of your choice: ');
+let numb = prompt('Enter the number of your choice: ');
 numb = Number.parseInt(numb);
 //  check number is divisble by 2 and 3 using modulo operator and logical and operator
 if( numb % 2 == 0 && numb % 3 == 0 )
@@ -115,7 +115,7 @@ else
 
 // print the based on the age input by user i.e. greater than 18 then he/she is eleigle to get driving licence, in other condition he/she is not eligible.
 
-user_age = Number.parseInt(prompt("Enter the Age: "));
+let user_age = Number.parseInt(prompt("Enter the Age: "));
 if(user_age > 18){
   console.log("Your are eligible to get your driving licence and also you can drive.")
 }else{
